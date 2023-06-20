@@ -1,0 +1,4 @@
+This application is a demonstration of how an ERC20 token can be created from scratch without the well-known zeppelin open library. The created smart contract is implemented on a hardhat network. Also, the smart contract is implemented with a constructor function where the initial supply, token name, and symbol are initially set.
+The hardhat configuration allows developers to deploy the SC to different networks, including ganache and Sepolia testnet.
+From the client-side perspective, we used the react framework to build a multi-component landing page where a user can connect their non-custodial wallet and send a portion of the created token to another address. In this project, to simplify the development process, I use Moralis service.
+Furthermore, I created a deployment script to automatically update the ABI and Address of the contract in case other developers want to update/improve my initial version of the smart contract.
